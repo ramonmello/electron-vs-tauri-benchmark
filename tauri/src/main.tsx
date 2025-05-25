@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router";
 import App from "./App";
 
+import "./styles/global.css";
+
 const root = document.getElementById("root") as HTMLElement;
 
 ReactDOM.createRoot(root).render(
