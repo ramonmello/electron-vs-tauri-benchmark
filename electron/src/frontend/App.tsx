@@ -12,8 +12,6 @@ import {
   Edge,
 } from "@xyflow/react";
 
-import "@xyflow/react/dist/style.css";
-
 import Sidebar from "./Sidebar";
 import { DnDProvider, useDnD } from "./DnDContext";
 
