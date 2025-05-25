@@ -4,6 +4,7 @@
     "module": "commonjs",
     "allowJs": true,
     "skipLibCheck": true,
+    "jsx": "react-jsx",
     "esModuleInterop": true,
     "noImplicitAny": true,
     "sourceMap": true,
