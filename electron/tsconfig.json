@@ -11,6 +11,11 @@
     "baseUrl": ".",
     "outDir": "dist",
     "moduleResolution": "bundler",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+
+    /* Shadcn/ui */
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }
