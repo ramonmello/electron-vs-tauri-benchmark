@@ -12,8 +12,8 @@ import {
   Edge,
 } from "@xyflow/react";
 
-import Sidebar from "./Sidebar";
-import { DnDProvider, useDnD } from "./DnDContext";
+import Sidebar from "../components/Sidebar";
+import { DnDProvider, useDnD } from "../components/DnDContext";
 
 const initialNodes: Node[] = [
   {

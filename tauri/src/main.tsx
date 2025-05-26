@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router";
-import App from "./App";
+import ReactFlowExample from "./pages/ReactFlowExample";
 
 import "./styles/global.css";
 
@@ -11,7 +11,7 @@ ReactDOM.createRoot(root).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<ReactFlowExample />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
