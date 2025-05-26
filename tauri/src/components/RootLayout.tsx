@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { LayoutDashboard } from "lucide-react";
@@ -69,7 +69,9 @@ const NavItem = ({ href, icon: Icon, label, isCollapsed }: NavItemProps) => {
         isActive && "bg-muted text-blue-600"
       )}
     >
-      <Icon className="h-4 w-4" />
+      <div className="h-4 w-4">
+        <Icon className="h-4 w-4" />
+      </div>
       <motion.li variants={variants}>
         {!isCollapsed && <p className="ml-2 text-sm font-medium">{label}</p>}
       </motion.li>
